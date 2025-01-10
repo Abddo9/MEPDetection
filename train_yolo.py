@@ -16,7 +16,7 @@ print("Training results", train_results)
 print("Evaluating using the test data")
 eval_metrics = model.val(data="/home/abdalwhab/data/work/ETS/research/Construction/YOLO-5/test.yaml", plots=True)
 
-print("eval_metrics", eval_metrics)
+print("eval_metrics", eval_metrics) 
 
 
 print("Maps")
