@@ -17,8 +17,9 @@ pred_labels = []
 base_model = GroundedSAM2(
     ontology=CaptionOntology(
         {
-            "person": "person",
-            "shipping container": "shipping container",
+            'Boiler':'Boiler', 'Cable Tray fitting':'Cable Tray fitting', 'Electrical Panel':'Electrical Panel', 
+            'Fire alarm detector':'Fire alarm detector', 'Not the pipe the pipe connector':'Pipe Fitting', 'Valve':'Valve', 
+            'PowerHub or electrical Outlet':'electrical Outlet', 'generator': 'generator', 'lamp':'light', 'pump':'pump'
         }
     )
 )
