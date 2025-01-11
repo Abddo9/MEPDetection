@@ -18,6 +18,11 @@ base_model = GroundedSAM2(
         }
     )
 )
+import torch
+print(torch.cuda.is_available())
+
+print("Model loaded", base_model.__dir__())
+quit()
 
 dir = "/media/wahabu/Extreme SSD/test"
 for f in os.listdir(dir):
