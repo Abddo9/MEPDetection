@@ -9,7 +9,7 @@ import cv2
 import os
 
 from huggingface_hub import login
-os.environ["HF_ACCESS_TOKEN"] = "HF_ACCESS_TOKEN"
+os.environ["HF_ACCESS_TOKEN"] = "put your HF token here"
 login(os.environ["HF_ACCESS_TOKEN"])
 
 print("login successfull")

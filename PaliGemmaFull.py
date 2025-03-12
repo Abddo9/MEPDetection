@@ -27,7 +27,7 @@ base_model = PaliGemma(
 
 print("Fintuning the model PaliGemma on the full training dataset")
 from autodistill_paligemma import paligemma_model 
-os.environ["HF_ACCESS_TOKEN"] = "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"
+os.environ["HF_ACCESS_TOKEN"] = "put your HF token here"
 dir = "/home/wahabu/data/construction/MepDetection/data/YOLO-5/"
 target_model = paligemma_model.PaliGemmaTrainer()
 target_model.train(dir)

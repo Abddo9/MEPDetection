@@ -9,7 +9,7 @@ import cv2
 import os
 
 from huggingface_hub import login
-os.environ["HF_ACCESS_TOKEN"] = "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"
+os.environ["HF_ACCESS_TOKEN"] = "put your HF token here"
 login(os.environ["HF_ACCESS_TOKEN"])
 
 print("Loading the model...")
@@ -40,7 +40,6 @@ base_model = PaliGemma(
 
 # #from autodistill_paligemma.paligemma_model import PaLiGemmaTrainer
 # from autodistill_paligemma import paligemma_model 
-os.environ["HF_ACCESS_TOKEN"] = "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"
 # dir = "/home/wahabu/data/construction/MepDetection/data/YOLO-5/"
 # target_model = paligemma_model.PaliGemmaTrainer()
 # target_model.train(dir)
