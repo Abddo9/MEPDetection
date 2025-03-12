@@ -1,3 +1,12 @@
 *.pt
 runs/
+*.jpg
+*.txt
+*data.yaml
+zd_dataset/*
+*.log
+data/*
+paligemma/*
+paligemma-lora/*
 YOLO-5/*
+zd_CTF_V/*
